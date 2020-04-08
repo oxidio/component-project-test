@@ -1,0 +1,23 @@
+{
+    "name": "oxidio/component-project-test",
+    "type": "oxideshop-component",
+    "license": "GPL-3.0",
+    "require": {
+        "oxidio/oxidio": "^6.5",
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Oxidio\\": [
+                "src/Oxidio"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
